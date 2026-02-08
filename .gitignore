@@ -1,0 +1,75 @@
+# Python / virtual environments
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+venv/
+env/
+.venv/
+pip-log.txt
+pip-delete-this-directory.txt
+
+# Jupyter Notebook
+.ipynb_checkpoints/
+*.ipynb_checkpoints/
+
+# Data files – protect large/raw data (uncomment lines you want to keep tracked)
+data/raw/*
+!data/raw/*.csv               # ← keep small CSVs like your original brent_prices if < few MB
+!data/raw/*.xlsx
+data/processed/*
+data/external/*.large.*
+traces/
+*.nc                          # PyMC/ArviZ netCDF traces – often huge
+*.pickle
+*.pkl
+*.joblib
+
+# Logs and temporary files
+*.log
+*.tmp
+*.bak
+*.swp
+*~
+
+# IDE / editor files
+.vscode/
+.idea/
+*.sublime-project
+*.sublime-workspace
+
+# macOS junk
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# Windows junk
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+
+# Build / distribution folders (if you later make a package or app)
+build/
+dist/
+*.egg-info/
+*.egg
+
+# Dashboard / frontend specific (if you add React or Node later)
+node_modules/
+npm-debug.log
+yarn-error.log
+dashboard/build/
+dashboard/dist/
+
+# Large model outputs or caches
+cache/
+*.h5
+*.pth
+*.onnx
+
+# Keep these tracked (examples – adjust as needed)
+/data/external/events.csv
+/notebooks/*.ipynb            # keep notebooks in git
+/requirements.txt
+/README.md
