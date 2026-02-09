@@ -13,7 +13,7 @@ Bayesian change point detection on historical Brent crude oil prices (1987–202
 
 ```bash
 # Clone repo
-git clone <your-repo-url>
+git clone https://github.com/Samuel-0228/brent-oil-change-point-analysis.git
 cd brent-oil-change-point-analysis
 
 # Virtual env
